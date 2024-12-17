@@ -8,7 +8,6 @@ WORKDIR /usr/src/app
 
 COPY --chown=node:node package*.json ./
 
-COPY --chown=node:node ./prisma .
 
 RUN npm ci
 
